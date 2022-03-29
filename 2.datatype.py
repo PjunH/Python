@@ -8,17 +8,16 @@ print(pow(3,2))
 import random 
 print(random.random())
 
-# String
+# String 문자열
 print('hello')
 print("hello")
-print('''
+print("""
     Hello
     World
-''')
+""")
 print(len('hello'))  #글자수세기
 
 #List
-
 member = ['Park','duru','taeho']
 print(member[0])
 print(len(member))
@@ -29,7 +28,7 @@ print(random.choice(member))
 score = [100,200,300]
 print(sum(score))
 
-#list 데이터
+
 
 #print ('hello world')
 #name = "hello world"
